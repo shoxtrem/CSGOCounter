@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
      * @param round add a new round
      */
     public void displayRoundForTeamA(int round) {
-        if (roundTeamA + roundTeamB == 30) {
+        if (roundTeamA + roundTeamB > 30) {
             Toast.makeText(this, getString(R.string.maxRound), Toast.LENGTH_SHORT).show();
             return;
         }
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
      * @param round add a new round
      */
     public void displayRoundForTeamB(int round) {
-        if (roundTeamA + roundTeamB == 30) {
+        if (roundTeamA + roundTeamB > 30) {
             Toast.makeText(this, getString(R.string.maxRound), Toast.LENGTH_SHORT).show();
             return;
         }
