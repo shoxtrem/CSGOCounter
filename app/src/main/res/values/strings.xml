@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CSGO Counter</string>
+    <string name="teamA">Team A</string>
+    <string name="oneKill">+1 Kill</string>
+    <string name="hundredDollars">+$100</string>
+    <string name="oneRound">+1 Round</string>
+    <string name="teamB">Team B</string>
+    <string name="reset">reset</string>
+    <string name="maxRound">The maximum is 30 rounds</string>
+</resources>
